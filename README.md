@@ -19,7 +19,7 @@ A simple script that extracts your GitHub profile and repository data for resume
 1. Clone or download this repository
 2. Install dependencies:
    ```
-   npm install node-fetch dotenv
+   npm install
    ```
 3. Create a `.env` file in the project root with your GitHub token:
    ```
@@ -34,7 +34,7 @@ A simple script that extracts your GitHub profile and repository data for resume
 
 2. Run the script:
    ```
-   node github-repo-extractor.js
+   npm start
    ```
 
 3. Find your data in the generated JSON file (default: `github_resume_data.json`)
